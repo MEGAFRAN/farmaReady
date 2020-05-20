@@ -1,0 +1,23 @@
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  color: #002d5a;
+  font-weight: 500s;
+  border: 5px solid #418fde;
+  border-radius: 5px;
+}
+
+span {
+  font-size: 20px;
+}
+
+button {
+  width: 200px;
+  height: 61px;
+  background-color: #002d5a;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+}
