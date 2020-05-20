@@ -1,4 +1,4 @@
-*NOTA: Luego de clonado, favor darle npm install
+*******************NOTA: Luego de clonado, favor darle npm install  ********************
 
 # TestFtd
 
