@@ -1,0 +1,86 @@
+<div class="container bg-light my-5">
+  <div class="row">
+    <div class="col-12 titulo">
+      <h1>Dolex Gripa 12 Tabs Congestión nasal, Dolor cabeza y fiebre</h1>
+      <br />
+
+      <img
+        class="logo"
+        alt="dolex gripa"
+        src="./assets/dolex-gripa.jpg"
+        aria-label="dolex gripa"
+      />
+      <br />
+
+      <h2>
+        Acetaminofén Fenilefrina Clorfenamina x12Tab.GSK
+      </h2>
+
+      <p>
+        Precio: $11.200
+      </p>
+      <br />
+      <br />
+      <button
+        aria-label="Disminuya la cantidad del producto"
+        id="0000001-disminuir-cantidad"
+        class="disminuirAumentar"
+        (click)="quantity = quantity - 1"
+      >
+        -
+      </button>
+      {{ quantity }}
+      <button
+        aria-label="Aumente la cantidad del producto"
+        id="0000001-aumentar-cantidad"
+        class="disminuirAumentar"
+        (click)="quantity = quantity + 1"
+      >
+        +
+      </button>
+
+      <br /><br />
+      <button
+        aria-label="Comprar producto"
+        id="0000001-comprar"
+        class="comprar"
+        (click)="showText = true"
+      >
+        Comprar
+      </button>
+      <br />
+      <p class="text-success" *ngIf="showText">
+        Compra exitosa
+      </p>
+      <div class="descripcion">
+        <ul>
+          <br />
+          <b> Características </b>
+          <br />
+          Dolex gripa: Tratamiento sintomático del resfriado común. Es efectivo
+          para el alivio de los síntomas de la gripa, tales como:
+          <br /><br />
+          <li>Fiebre.</li>
+          <li>Dolor muscular.</li>
+          <li>Congestión nasal.</li>
+          <li>Congestión de senos paranasales.</li>
+          <li>Dolor de cabeza y de senos paranasales.</li>
+          <li>Estornudos, picazón y ojos llorosos.</li>
+        </ul>
+        <br /><b
+          >ES UN MEDICAMENTO. NO EXCEDER SU CONSUMO. LEER INDICACIONES Y
+          CONTRAINDICACIONES. SI LOS SÍNTOMAS PERSISTEN, CONSULTAR AL MÉDICO</b
+        >
+        <br /><br />
+        <p>
+          Farmatodo, cadena de farmacias y droguerías con productos para la
+          salud y belleza.
+        </p>
+        <br />
+        <p>Farmacia y droguería online 24 horas a domicilio</p>
+      </div>
+      <br />
+      <br />
+    </div>
+  </div>
+</div>
